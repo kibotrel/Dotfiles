@@ -1,0 +1,64 @@
+{
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.linkedEditing": true,
+    "editor.occurrencesHighlight": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.rulers": [80],
+    "editor.inlineSuggest.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false,
+
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+
+    "files.eol": "\n",
+    "files.autoSave": "onFocusChange",
+
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+
+    "redhat.telemetry.enabled": true,
+    "material-icon-theme.hidesExplorerArrows": true,
+
+    "Notes.notesLocation": "/home/kibotrel/Documents/Notes",
+    "extensions.ignoreRecommendations": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true
+    },
+    "editor.unicodeHighlight.allowedCharacters": {
+        "×": true
+    },
+    "cSpell.ignoreWords": [
+        "Consolas"
+    ],
+    "window.zoomLevel": 1,
+}
+
+// {
+//     "editor.acceptSuggestionOnCommitCharacter": true,
+//     "editor.accessibilitySupport": "off",
+//     "editor.autoClosingBrackets": "always",
+//     "editor.autoClosingDelete": "auto",
+//     "editor.autoClosingOvertype": "auto",
+//     "editor.autoClosingQuotes": "beforeWhitespace",
+//     "editor.autoIndent": "full",
+//     "editor.autoSurround": "languageDefined",
+//     "editor.bracketPairColorization.enabled": false,
+//     "editor.codeActionsOnSave": {
+//         "source.fixAll": true,
+//         "source.organizeImports": true,
+//     },
+//     "editor.codeActionWidget.showHeaders": true
+// }

@@ -1,0 +1,39 @@
+[includeIf "gitdir:**/Github/**/.git"]
+  path = ".config/git/github.conf"
+
+[includeIf "gitdir:**/Gitlab/**/.git"]
+  path = ".config/git/gitlab.conf"
+
+[core]
+  trustctime = true
+  splitIndex = false
+  editor = "vim"
+  commentChar = "#"
+  pager = "batcat"
+
+[sequence]
+  editor = "vim"
+
+[commit]
+  gpgSign = true
+
+[gpg]
+  program = gpg
+
+[blame]
+  showRoot = false
+  blankBoundary = false
+  showEmail = true
+
+[clean]
+  requireForce = true
+
+[color]
+  branch = auto
+  grep = auto
+  interactive = auto
+  pager = true
+  showBranch = auto
+  status = auto
+
+
